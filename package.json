@@ -1,0 +1,20 @@
+{
+  "name": "edtech-lesson-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Embed a small lesson library and search it by meaning with TypeScript and Infrai.",
+  "type": "module",
+  "scripts": {
+    "search": "tsx src/lesson_library_search.ts",
+    "test": "tsx --test test/lesson_ranking.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^5.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
